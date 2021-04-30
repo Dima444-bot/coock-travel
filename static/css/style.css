@@ -1,0 +1,48 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #0b141d;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-image: url('../images/fon-top.jpg');
+  background-size: cover;
+  background-position-x: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+header nav {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 615px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header .logo {
+  position: absolute;
+  top: 40px;
+  left:33px;
+  font-size: 24px;
+  text-shadow:  1px 1px #F8D930;
+}
