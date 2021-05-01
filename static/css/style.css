@@ -3,6 +3,7 @@
   color: #0b141d;
 }
 body {
+  background-color: #e1ebf4;
   margin: 0;
 }
 .container {
@@ -42,7 +43,47 @@ header nav ul li a:hover {
 header .logo {
   position: absolute;
   top: 40px;
-  left:33px;
+  left: 33px;
   font-size: 24px;
-  text-shadow:  1px 1px #F8D930;
+  text-shadow: 1px 1px #f8d930;
+}
+header section.icons {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+header section.icons ul li {
+  display: inline;
+  padding: 0 7px;
+}
+header section.icons a {
+  text-decoration: none;
+}
+/* //TODO: разобраться fill svg */
+
+header section.title {
+  position: absolute;
+  top: 207px;
+  left: 33px;
+}
+header section.title h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px #f8d930;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 0;
+}
+header section.title p {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+header section.title a {
+  background-color: #f8d930;
+  padding: 18px 71px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 20px;
+}
+header section.title a:hover {
+  background-color: #fded92;
 }
