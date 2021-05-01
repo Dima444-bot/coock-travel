@@ -6,7 +6,7 @@ body {
   background-color: #e1ebf4;
   margin: 0;
 }
-.container {
+div.container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -40,7 +40,7 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: underline;
 }
-header .logo {
+header div.logo {
   position: absolute;
   top: 40px;
   left: 33px;
