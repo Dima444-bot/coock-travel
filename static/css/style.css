@@ -111,6 +111,17 @@ section.about div.left div.men {
   bottom: 0px;
 }
 
+.number-all {
+  font-weight: 900;
+  font-size: 80px;
+  -webkit-text-stroke: 1px #0b141d;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+  line-height: 60px;
+}
+
 section.about div.left div.number-30 {
   position: absolute;
   width: 160px;
@@ -124,14 +135,7 @@ section.about div.left div.number-30 div.text-top {
   font-size: 14px;
 }
 section.about div.left div.number-30 div.num {
-  font-weight: 900;
-  font-size: 80px;
-  -webkit-text-stroke: 1px #0b141d;
-  color: #fff;
-  position: absolute;
-  top: 0px;
   left: 35px;
-  line-height: 60px;
 }
 section.about div.left div.number-30 div.text-bottom {
   position: absolute;
