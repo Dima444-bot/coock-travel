@@ -148,6 +148,66 @@ section.about div.left div.number-30 div.text-bottom {
   font-size: 14px;
 }
 
+/*  */
+.two-title {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  top: 380px;
+  left: 425px;
+}
+.top-title {
+  position: absolute;
+  top: 15px;
+  font-size: 14px;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 80px;
+  -webkit-text-stroke: 1px #0b141d;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
+.bottom-title {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  font-size: 14px;
+}
+.free-title {
+  position: relative;
+  width: 320px;
+  height: 100px;
+  left: 380px;
+  top: 570px;
+}
+.toptitle {
+  position: absolute;
+  top: 15px;
+  width: 55px;
+  height: 20px;
+}
+.number-title {
+  font-weight: 900;
+  font-size: 80px;
+  -webkit-text-stroke: 1px #0b141d;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+.bottomtitle {
+  position: absolute;
+  bottom: 15px;
+  width: 115px;
+  height: 20px;
+  right: 10px;
+}
+/*  */
+
 /* правая часть блока */
 section.about div.right {
   width: 450px;
