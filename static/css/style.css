@@ -82,15 +82,15 @@ header section.title p {
   font-size: 30px;
   margin-bottom: 70px;
 }
-header section.title a,
-article .right p .btn {
+
+.btn {
   background-color: var(--color-yellow);
   padding: 18px 71px;
   border-radius: 3px;
   text-decoration: none;
   font-size: 20px;
 }
-header section.title a:hover {
+.btn:hover {
   background-color: #fded92;
 }
 
