@@ -474,3 +474,44 @@ textarea::placeholder {
   border: var(--color-yellow) 2px solid;
   font-size: 20px;
 }
+
+footer {
+  background-color: #0c1729;
+  height: 230px;
+  width: 100%;
+  display: flex;
+}
+
+footer div,
+footer div p,
+footer div a {
+  width: 100%;
+  color: var(--color-yellow);
+  /* border: #fded92 1px solid; */
+}
+
+.logo-footer,
+footer div p,
+footer ul,
+.visa {
+  margin-top: 60px;
+}
+.logo-footer {
+  font-size: 24px;
+  text-align: center;
+  text-transform: lowercase;
+}
+footer a {
+  text-decoration: none;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  padding-bottom: 10px;
+}
+.visa {
+  width: 50px;
+  margin-left: 40px;
+  fill: var(--color-yellow);
+}
